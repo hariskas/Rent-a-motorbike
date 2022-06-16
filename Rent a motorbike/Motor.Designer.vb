@@ -25,17 +25,17 @@ Partial Class Motor
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Motor))
         Me.btnexit = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
+        Me.LabelText1 = New System.Windows.Forms.Label()
+        Me.LabelText2 = New System.Windows.Forms.Label()
+        Me.LabelText3 = New System.Windows.Forms.Label()
+        Me.LabelText4 = New System.Windows.Forms.Label()
+        Me.LabelText5 = New System.Windows.Forms.Label()
+        Me.LabelText8 = New System.Windows.Forms.Label()
+        Me.LabelText7 = New System.Windows.Forms.Label()
+        Me.LabelText6 = New System.Windows.Forms.Label()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
@@ -50,8 +50,8 @@ Partial Class Motor
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -78,93 +78,93 @@ Partial Class Motor
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "KATALOG"
         '
-        'Label2
+        'LabelText1
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(117, 240)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(94, 80)
-        Me.Label2.TabIndex = 10
-        Me.Label2.Text = "Yamaha R1" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "2021" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.LabelText1.AutoSize = True
+        Me.LabelText1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelText1.Location = New System.Drawing.Point(117, 240)
+        Me.LabelText1.Name = "LabelText1"
+        Me.LabelText1.Size = New System.Drawing.Size(94, 80)
+        Me.LabelText1.TabIndex = 10
+        Me.LabelText1.Text = "Yamaha R1" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "2021" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.LabelText1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label3
+        'LabelText2
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(404, 240)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(94, 80)
-        Me.Label3.TabIndex = 11
-        Me.Label3.Text = "Yamaha R1" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "2022" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.LabelText2.AutoSize = True
+        Me.LabelText2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelText2.Location = New System.Drawing.Point(404, 240)
+        Me.LabelText2.Name = "LabelText2"
+        Me.LabelText2.Size = New System.Drawing.Size(94, 80)
+        Me.LabelText2.TabIndex = 11
+        Me.LabelText2.Text = "Yamaha R1" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "2022" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.LabelText2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label4
+        'LabelText3
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(701, 240)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(94, 60)
-        Me.Label4.TabIndex = 12
-        Me.Label4.Text = "Yamaha R6" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "2015" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.LabelText3.AutoSize = True
+        Me.LabelText3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelText3.Location = New System.Drawing.Point(701, 240)
+        Me.LabelText3.Name = "LabelText3"
+        Me.LabelText3.Size = New System.Drawing.Size(94, 60)
+        Me.LabelText3.TabIndex = 12
+        Me.LabelText3.Text = "Yamaha R6" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "2015" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.LabelText3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label5
+        'LabelText4
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(1024, 240)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(55, 60)
-        Me.Label5.TabIndex = 13
-        Me.Label5.Text = "Ducati" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "2018" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.LabelText4.AutoSize = True
+        Me.LabelText4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelText4.Location = New System.Drawing.Point(1024, 240)
+        Me.LabelText4.Name = "LabelText4"
+        Me.LabelText4.Size = New System.Drawing.Size(55, 60)
+        Me.LabelText4.TabIndex = 13
+        Me.LabelText4.Text = "Ducati" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "2018" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.LabelText4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label6
+        'LabelText5
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(131, 508)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(57, 60)
-        Me.Label6.TabIndex = 14
-        Me.Label6.Text = "Suzuki" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "2010" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.LabelText5.AutoSize = True
+        Me.LabelText5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelText5.Location = New System.Drawing.Point(131, 508)
+        Me.LabelText5.Name = "LabelText5"
+        Me.LabelText5.Size = New System.Drawing.Size(57, 60)
+        Me.LabelText5.TabIndex = 14
+        Me.LabelText5.Text = "Suzuki" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "2010" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.LabelText5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label7
+        'LabelText8
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(989, 508)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(123, 80)
-        Me.Label7.TabIndex = 15
-        Me.Label7.Text = "BMW S1000RR" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "2018" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.LabelText8.AutoSize = True
+        Me.LabelText8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelText8.Location = New System.Drawing.Point(989, 508)
+        Me.LabelText8.Name = "LabelText8"
+        Me.LabelText8.Size = New System.Drawing.Size(123, 80)
+        Me.LabelText8.TabIndex = 15
+        Me.LabelText8.Text = "BMW S1000RR" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "2018" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.LabelText8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label8
+        'LabelText7
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(701, 508)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(113, 80)
-        Me.Label8.TabIndex = 16
-        Me.Label8.Text = "Yamaha mt 10" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "2017" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.LabelText7.AutoSize = True
+        Me.LabelText7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelText7.Location = New System.Drawing.Point(701, 508)
+        Me.LabelText7.Name = "LabelText7"
+        Me.LabelText7.Size = New System.Drawing.Size(113, 80)
+        Me.LabelText7.TabIndex = 16
+        Me.LabelText7.Text = "Yamaha mt 10" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "2017" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.LabelText7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label9
+        'LabelText6
         '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(404, 508)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(76, 100)
-        Me.Label9.TabIndex = 17
-        Me.Label9.Text = "Kawasaki" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "2020" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.LabelText6.AutoSize = True
+        Me.LabelText6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelText6.Location = New System.Drawing.Point(404, 508)
+        Me.LabelText6.Name = "LabelText6"
+        Me.LabelText6.Size = New System.Drawing.Size(76, 100)
+        Me.LabelText6.TabIndex = 17
+        Me.LabelText6.Text = "Kawasaki" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "2020" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.LabelText6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'PictureBox7
         '
@@ -176,25 +176,25 @@ Partial Class Motor
         Me.PictureBox7.TabIndex = 8
         Me.PictureBox7.TabStop = False
         '
-        'PictureBox8
-        '
-        Me.PictureBox8.BackgroundImage = CType(resources.GetObject("PictureBox8.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox8.Location = New System.Drawing.Point(349, 344)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(194, 161)
-        Me.PictureBox8.TabIndex = 9
-        Me.PictureBox8.TabStop = False
-        '
         'PictureBox6
         '
         Me.PictureBox6.BackgroundImage = CType(resources.GetObject("PictureBox6.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox6.Location = New System.Drawing.Point(954, 344)
+        Me.PictureBox6.Location = New System.Drawing.Point(349, 344)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(194, 161)
-        Me.PictureBox6.TabIndex = 7
+        Me.PictureBox6.TabIndex = 9
         Me.PictureBox6.TabStop = False
+        '
+        'PictureBox8
+        '
+        Me.PictureBox8.BackgroundImage = CType(resources.GetObject("PictureBox8.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox8.Location = New System.Drawing.Point(954, 344)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(194, 161)
+        Me.PictureBox8.TabIndex = 7
+        Me.PictureBox8.TabStop = False
         '
         'PictureBox5
         '
@@ -337,17 +337,17 @@ Partial Class Motor
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.LabelText6)
+        Me.Controls.Add(Me.LabelText7)
+        Me.Controls.Add(Me.LabelText8)
+        Me.Controls.Add(Me.LabelText5)
+        Me.Controls.Add(Me.LabelText4)
+        Me.Controls.Add(Me.LabelText3)
+        Me.Controls.Add(Me.LabelText2)
+        Me.Controls.Add(Me.LabelText1)
         Me.Controls.Add(Me.PictureBox7)
-        Me.Controls.Add(Me.PictureBox8)
         Me.Controls.Add(Me.PictureBox6)
+        Me.Controls.Add(Me.PictureBox8)
         Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox3)
@@ -360,8 +360,8 @@ Partial Class Motor
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form2"
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
@@ -379,17 +379,17 @@ Partial Class Motor
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents PictureBox5 As PictureBox
-    Friend WithEvents PictureBox6 As PictureBox
-    Friend WithEvents PictureBox7 As PictureBox
     Friend WithEvents PictureBox8 As PictureBox
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label8 As Label
-    Friend WithEvents Label9 As Label
+    Friend WithEvents PictureBox7 As PictureBox
+    Friend WithEvents PictureBox6 As PictureBox
+    Friend WithEvents LabelText1 As Label
+    Friend WithEvents LabelText2 As Label
+    Friend WithEvents LabelText3 As Label
+    Friend WithEvents LabelText4 As Label
+    Friend WithEvents LabelText5 As Label
+    Friend WithEvents LabelText8 As Label
+    Friend WithEvents LabelText7 As Label
+    Friend WithEvents LabelText6 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button

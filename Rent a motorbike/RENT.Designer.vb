@@ -33,8 +33,9 @@ Partial Class RENT
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
+        Me.LabelMotor = New System.Windows.Forms.Label()
+        Me.PictureBoxMotor = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBoxMotor, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -116,9 +117,9 @@ Partial Class RENT
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(424, 196)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(68, 24)
+        Me.Label5.Size = New System.Drawing.Size(54, 24)
         Me.Label5.TabIndex = 0
-        Me.Label5.Text = "Model"
+        Me.Label5.Text = "Slika"
         '
         'Label6
         '
@@ -138,25 +139,26 @@ Partial Class RENT
         Me.TextBox6.Size = New System.Drawing.Size(169, 29)
         Me.TextBox6.TabIndex = 3
         '
-        'Label7
+        'LabelMotor
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(74, 228)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(66, 24)
-        Me.Label7.TabIndex = 4
-        Me.Label7.Text = "Label7"
+        Me.LabelMotor.AutoSize = True
+        Me.LabelMotor.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelMotor.Location = New System.Drawing.Point(74, 228)
+        Me.LabelMotor.Name = "LabelMotor"
+        Me.LabelMotor.Size = New System.Drawing.Size(66, 24)
+        Me.LabelMotor.TabIndex = 4
+        Me.LabelMotor.Text = "Label7"
         '
-        'Label8
+        'PictureBoxMotor
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(424, 226)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(66, 24)
-        Me.Label8.TabIndex = 4
-        Me.Label8.Text = "Label7"
+        Me.PictureBoxMotor.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBoxMotor.BackgroundImage = Global.Rent_a_motorbike.My.Resources.Resources.R1_Blue
+        Me.PictureBoxMotor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBoxMotor.Location = New System.Drawing.Point(428, 228)
+        Me.PictureBoxMotor.Name = "PictureBoxMotor"
+        Me.PictureBoxMotor.Size = New System.Drawing.Size(194, 161)
+        Me.PictureBoxMotor.TabIndex = 5
+        Me.PictureBoxMotor.TabStop = False
         '
         'RENT
         '
@@ -164,8 +166,8 @@ Partial Class RENT
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.InactiveCaption
         Me.ClientSize = New System.Drawing.Size(1228, 654)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.PictureBoxMotor)
+        Me.Controls.Add(Me.LabelMotor)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox6)
@@ -181,6 +183,7 @@ Partial Class RENT
         Me.Name = "RENT"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "RENT"
+        CType(Me.PictureBoxMotor, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -197,6 +200,6 @@ Partial Class RENT
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label8 As Label
+    Friend WithEvents LabelMotor As Label
+    Friend WithEvents PictureBoxMotor As PictureBox
 End Class
